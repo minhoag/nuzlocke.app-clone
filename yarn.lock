@@ -2139,11 +2139,6 @@ pokedex-promise-v2@^3.3.2:
     memory-cache "^0.2.0"
     p-map "^4.0.0"
 
-pokemon-assets@^0.6.0:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/pokemon-assets/-/pokemon-assets-1.0.5.tgz#53e99381a254c330cda7b49b758ac86c84c54f20"
-  integrity sha512-usWau7zL+79F/QOZPTuCkwhvS61rAliCL2ztCRt346Klv+imCDtlB3wRNR94Vq++jKfnRNI8ZHdKUaLOta9BQw==
-
 postcss-calc@^8.2.3:
   version "8.2.4"
   resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-8.2.4.tgz#77b9c29bfcbe8a07ff6693dc87050828889739a5"

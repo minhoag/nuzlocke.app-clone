@@ -1,5 +1,5 @@
 <script>
-  import { slide } from 'svelte/transition'z
+  import { slide } from 'svelte/transition'
   import SharedPokemon from './SharedPokemon.svelte'
   import SharedLocation from './SharedLocation.svelte'
 
