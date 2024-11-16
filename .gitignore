@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+/.svelte-kit
+/package
+.vercel_build_output
+.vercel
+stats.html
+masters
+scripts
+.log

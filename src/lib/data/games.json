@@ -1,0 +1,591 @@
+{
+  "newgen": {
+    "pid": "newgen",
+    "lid": "newgen",
+    "logo": "/logos/new-generations-logo",
+    "title": "New Generations",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "newgen",
+    "region": "kanto",
+    "lastUpdated": "5th May 2023"
+  },
+  "blazingem": {
+    "pid": "blazingem",
+    "lid": "blazingem",
+    "logo": "/logos/blazing-emerald-logo",
+    "title": "Blazing Emerald",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "blazingem",
+    "region": "hoenn",
+    "lastUpdated": "26th April 2023"
+  },
+  "emrunbun": {
+    "pid": "emrunbun",
+    "lid": "emrunbun",
+    "logo": "/logos/runbun-logo",
+    "title": "Emerald Run & Bun",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "emrunbun",
+    "region": "hoenn",
+    "lastUpdated": "12th April 2023"
+  },
+  "glazed": {
+    "pid": "glazed",
+    "lid": "glazed",
+    "logo": "/logos/glazed-logo",
+    "title": "Glazed",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "glazed",
+    "region": "tunod",
+    "lastUpdated": "26th April 2023"
+  },
+  "rrss": {
+    "pid": "rrss",
+    "logo": "/logos/rising-ruby-logo",
+    "title": "Rising Ruby",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "rrss",
+    "region": "hoenn",
+    "lastUpdated": "3rd April 2023"
+  },
+  "ssaph": {
+    "pid": "ssaph",
+    "lid": "rrss",
+    "logo": "/logos/sinking-sapphire-logo",
+    "title": "Sinking Sapphire",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "rrss",
+    "region": "hoenn",
+    "lastUpdated": "27th May 2023"
+  },
+  "unbound": {
+    "pid": "unbound",
+    "lid": "unbound",
+    "logo": "/logos/unbound-logo",
+    "title": "Unbound",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "unbound",
+    "region": "borrius",
+    "lastUpdated": "30th March 2023",
+    "difficulty": [":", "Expert:_exp"]
+  },
+  "emkaizo": {
+    "pid": "emkaizo",
+    "logo": "/logos/emerald-kaizo-logo",
+    "title": "Emerald Kaizo",
+    "gen": "romhack",
+    "supported": true,
+    "region": "hoenn",
+    "patched": true,
+    "lastUpdated": "30th March 2023",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "vi": {
+    "pid": "vi",
+    "lid": "sv",
+    "logo": "/logos/violet-logo",
+    "title": "Violet",
+    "gen": "IX",
+    "supported": true,
+    "region": "paldea",
+    "lastUpdated": "1st April 2023"
+  },
+  "sc": {
+    "pid": "sc",
+    "lid": "sv",
+    "logo": "/logos/scarlet-logo",
+    "title": "Scarlet",
+    "gen": "IX",
+    "supported": true,
+    "region": "paldea",
+    "lastUpdated": "1st April 2023"
+  },
+  "sw": {
+    "pid": "sw",
+    "lid": "swsh",
+    "logo": "/logos/sword-logo",
+    "title": "Sword",
+    "gen": "VIII",
+    "supported": true,
+    "region": "galar"
+  },
+  "sh": {
+    "pid": "sh",
+    "lid": "swsh",
+    "logo": "/logos/shield-logo",
+    "title": "Shield",
+    "gen": "VIII",
+    "supported": true,
+    "region": "galar"
+  },
+  "usun": {
+    "pid": "usun",
+    "lid": "usum",
+    "logo": "/logos/ultra-sun-logo",
+    "title": "Ultra Sun",
+    "gen": "VII",
+    "supported": true,
+    "region": "alola"
+  },
+  "umoon": {
+    "pid": "umoon",
+    "lid": "usum",
+    "logo": "/logos/ultra-moon-logo",
+    "title": "Ultra Moon",
+    "gen": "VII",
+    "supported": true,
+    "region": "alola"
+  },
+  "sun": {
+    "pid": "sun",
+    "lid": "sm",
+    "logo": "/logos/sun-logo",
+    "title": "Sun",
+    "gen": "VII",
+    "supported": true,
+    "region": "alola"
+  },
+  "moon": {
+    "pid": "moon",
+    "lid": "sm",
+    "logo": "/logos/moon-logo",
+    "title": "Moon",
+    "gen": "VII",
+    "supported": true,
+    "region": "alola"
+  },
+  "x": {
+    "pid": "x",
+    "lid": "xy",
+    "logo": "/logos/x-logo",
+    "title": "X",
+    "gen": "VI",
+    "supported": true,
+    "region": "kalos"
+  },
+  "y": {
+    "pid": "y",
+    "lid": "xy",
+    "logo": "/logos/y-logo",
+    "title": "Y",
+    "gen": "VI",
+    "supported": true,
+    "region": "kalos"
+  },
+  "blazevolt2": {
+    "pid": "blazevolt2",
+    "patchId": "blazevolt2",
+    "lid": "blazevolt2",
+    "logo": "/logos/blaze-black-volt-white-2-redux",
+    "title": "Blaze Black / Volt White 2 Redux",
+    "gen": "romhack",
+    "patched": true,
+    "supported": true,
+    "region": "unova",
+    "lastUpdated": "12th March 2023",
+    "difficulty": [":", "Challenge:_c"]
+  },
+  "bl2": {
+    "pid": "bl2",
+    "lid": "b2w2",
+    "logo": "/logos/black-2-logo",
+    "title": "Black 2",
+    "gen": "V",
+    "supported": true,
+    "region": "unova",
+    "difficulty": [":", "Challenge:c"],
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen6"
+    }
+  },
+  "wh2": {
+    "pid": "wh2",
+    "lid": "b2w2",
+    "logo": "/logos/white-2-logo",
+    "title": "White 2",
+    "gen": "V",
+    "supported": true,
+    "region": "unova",
+    "difficulty": [":", "Challenge:c"],
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen6"
+    }
+  },
+  "blaze": {
+    "pid": "blaze",
+    "patchId": "blazevolt",
+    "lid": "blazevolt",
+    "logo": "/logos/blaze-black-logo",
+    "title": "Blaze Black",
+    "gen": "romhack",
+    "patched": true,
+    "supported": true,
+    "region": "unova",
+    "lastUpdated": "24th April 2023"
+  },
+  "volt": {
+    "pid": "volt",
+    "patchId": "blazevolt",
+    "lid": "blazevolt",
+    "logo": "/logos/volt-white-logo",
+    "title": "Volt White",
+    "gen": "romhack",
+    "patched": true,
+    "supported": true,
+    "region": "unova",
+    "lastUpdated": "24th April 2023"
+  },
+  "bl": {
+    "pid": "bl",
+    "lid": "bw",
+    "logo": "/logos/black-logo",
+    "title": "Black",
+    "gen": "V",
+    "supported": true,
+    "region": "unova",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen6"
+    }
+  },
+  "wh": {
+    "pid": "wh",
+    "lid": "bw",
+    "logo": "/logos/white-logo",
+    "title": "White",
+    "gen": "V",
+    "supported": true,
+    "region": "unova",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen6"
+    }
+  },
+  "bd": {
+    "pid": "bd",
+    "lid": "bdsp",
+    "logo": "/logos/brilliant-diamond-logo",
+    "title": "Brilliant Diamond",
+    "gen": "VIII",
+    "supported": true,
+    "region": "sinnoh"
+  },
+  "sp": {
+    "pid": "sp",
+    "lid": "bdsp",
+    "logo": "/logos/shining-pearl-logo",
+    "title": "Shining Pearl",
+    "gen": "VIII",
+    "supported": true,
+    "region": "sinnoh"
+  },
+  "radred": {
+    "pid": "radred",
+    "lid": "radred",
+    "logo": "/logos/radical-red-logo",
+    "title": "Radical Red",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "radred",
+    "region": "kanto",
+    "lastUpdated": "11th March 2023",
+    "difficulty": [":", "Hardcore:_hard"]
+  },
+  "renplat": {
+    "pid": "renplat",
+    "logo": "/logos/renegade-platinum-logo",
+    "title": "Renegade Platinum",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "region": "sinnoh"
+  },
+  "pt": {
+    "pid": "pt",
+    "lid": "plat",
+    "logo": "/logos/platinum-logo",
+    "title": "Platinum",
+    "gen": "IV",
+    "supported": true,
+    "region": "sinnoh",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5"
+    }
+  },
+  "d": {
+    "pid": "d",
+    "lid": "dp",
+    "logo": "/logos/diamond-logo",
+    "title": "Diamond",
+    "gen": "IV",
+    "supported": true,
+    "region": "sinnoh",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5"
+    }
+  },
+  "p": {
+    "pid": "p",
+    "lid": "dp",
+    "logo": "/logos/pearl-logo",
+    "title": "Pearl",
+    "gen": "IV",
+    "supported": true,
+    "region": "sinnoh",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5"
+    }
+  },
+  "or": {
+    "pid": "or",
+    "lid": "oras",
+    "logo": "/logos/omega-ruby-logo",
+    "title": "Omega Ruby",
+    "gen": "VI",
+    "supported": true,
+    "region": "hoenn"
+  },
+  "as": {
+    "pid": "as",
+    "lid": "oras",
+    "logo": "/logos/alpha-sapphire-logo",
+    "title": "Alpha Sapphire",
+    "gen": "VI",
+    "supported": true,
+    "region": "hoenn"
+  },
+  "em": {
+    "pid": "em",
+    "logo": "/logos/emerald-logo",
+    "title": "Emerald",
+    "gen": "III",
+    "supported": true,
+    "region": "hoenn",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+
+  "incem": {
+    "pid": "incem",
+    "logo": "/logos/inclement-emerald-logo",
+    "title": "Inclement Emerald",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "region": "hoenn"
+  },
+  "ruby": {
+    "pid": "ruby",
+    "lid": "rs",
+    "logo": "/logos/ruby-logo",
+    "title": "Ruby",
+    "gen": "III",
+    "supported": true,
+    "region": "hoenn",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "saph": {
+    "pid": "saph",
+    "lid": "rs",
+    "logo": "/logos/sapphire-logo",
+    "title": "Sapphire",
+    "gen": "III",
+    "supported": true,
+    "region": "hoenn",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "stormsilv": {
+    "pid": "stormsilv",
+    "lid": "sssg",
+    "logo": "/logos/storm-silver-logo",
+    "title": "Storm Silver",
+    "patched": true,
+    "patchId": "sssg",
+    "gen": "romhack",
+    "supported": true,
+    "region": "johto"
+  },
+  "sacredgold": {
+    "pid": "sacredgold",
+    "lid": "sssg",
+    "logo": "/logos/sacred-gold-logo",
+    "title": "Sacred Gold",
+    "patched": true,
+    "patchId": "sssg",
+    "gen": "romhack",
+    "supported": true,
+    "region": "johto"
+  },
+  "hg": {
+    "pid": "hg",
+    "lid": "hgss",
+    "logo": "/logos/heart-gold-logo",
+    "title": "Heart Gold",
+    "gen": "IV",
+    "supported": true,
+    "region": "johto",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5"
+    }
+  },
+  "ss": {
+    "pid": "ss",
+    "lid": "hgss",
+    "logo": "/logos/soul-silver-logo",
+    "title": "Soul Silver",
+    "gen": "IV",
+    "supported": true,
+    "region": "johto",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5"
+    }
+  },
+  "gold": {
+    "pid": "gold",
+    "lid": "gsc",
+    "logo": "/logos/gold-logo",
+    "title": "Gold",
+    "gen": "II",
+    "supported": true,
+    "region": "johto",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "silv": {
+    "pid": "silv",
+    "lid": "gsc",
+    "logo": "/logos/silver-logo",
+    "title": "Silver",
+    "gen": "II",
+    "supported": true,
+    "region": "johto",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "crys": {
+    "pid": "crys",
+    "lid": "gsc",
+    "logo": "/logos/crystal-logo",
+    "title": "Crystal",
+    "gen": "II",
+    "supported": true,
+    "region": "johto",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "fr": {
+    "pid": "fr",
+    "lid": "frlg",
+    "logo": "/logos/fire-red-logo",
+    "title": "Fire Red",
+    "gen": "III",
+    "supported": true,
+    "region": "kanto",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "lg": {
+    "pid": "lg",
+    "lid": "frlg",
+    "logo": "/logos/leaf-green-logo",
+    "title": "Leaf Green",
+    "gen": "III",
+    "supported": true,
+    "region": "kanto",
+    "filter": {
+      "types": "pregen6",
+      "moves": "pregen5",
+      "physicalSpecialSplit": true
+    }
+  },
+  "yel": {
+    "pid": "yel",
+    "title": "Yellow",
+    "gen": "I",
+    "supported": true,
+    "logo": "/logos/yellow-logo",
+    "region": "kanto",
+    "filter": {
+      "types": "pregen2",
+      "moves": "pregen2",
+      "physicalSpecialSplit": true
+    }
+  },
+  "red": {
+    "pid": "red",
+    "lid": "rb",
+    "title": "Red",
+    "gen": "I",
+    "supported": true,
+    "logo": "/logos/red-logo",
+    "region": "kanto",
+    "filter": {
+      "types": "pregen2",
+      "moves": "pregen2",
+      "physicalSpecialSplit": true
+    }
+  },
+  "blue": {
+    "pid": "blue",
+    "lid": "rb",
+    "title": "Blue",
+    "gen": "I",
+    "supported": true,
+    "logo": "/logos/blue-logo",
+    "region": "kanto",
+    "filter": {
+      "types": "pregen2",
+      "moves": "pregen2",
+      "physicalSpecialSplit": true
+    }
+  }
+}
