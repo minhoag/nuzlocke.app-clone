@@ -98,6 +98,21 @@
       "physicalSpecialSplit": true
     }
   },
+  "compass": {
+    "pid": "compass",
+    "logo": "/logos/violet-logo",
+    "title": "Compass",
+    "gen": "romhack",
+    "supported": true,
+    "region": "paldea",
+    "patched": true,
+    "lastUpdated": "2nd February 2023",
+    "filter": {
+      "types": "gen9",
+      "moves": "gen9",
+      "physicalSpecialSplit": true
+    }
+  },
   "vi": {
     "pid": "vi",
     "lid": "sv",
