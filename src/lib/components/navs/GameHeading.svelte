@@ -60,6 +60,15 @@
     { name: 'Box', link: '/box', icon: Box },
     { name: 'Grave', link: '/graveyard', icon: Grave }
   ]
+
+  const custom_game = [
+    {name: 'compass', img:'https://i.postimg.cc/yg7JK1Dn/logo.webp'}
+  ]
+
+  const custom = custom_game.filter((i) => {
+    if (game?.game.includes(i.name)) return i;
+  })
+
 </script>
 
 <svelte:head>
@@ -72,7 +81,7 @@
       <a href="/" rel="external" class="{$$restProps.class || ''} home group">
         {#if game?.game}
           <Logo
-            src="/assets/{game?.game}"
+            src={custom.length === 0 ? "/assets/" + game?.game + ".png" : custom[0].img}
             pictureClass="game--{game?.game}"
             class="h-10 w-auto max-md:pt-2 sm:w-20 md:mr-4 md:h-auto"
             alt="{game?.game} logo"
@@ -272,3 +281,7 @@
     }
   }
 </style>
+
+<!-- Changes
+- Add 'custom', make custom filter custom game -> put in image src
+-->

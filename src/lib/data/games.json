@@ -100,7 +100,7 @@
   },
   "compass": {
     "pid": "compass",
-    "logo": "/logos/violet-logo",
+    "logo": "https://i.postimg.cc/wvmDh3gK/logo.webp",
     "title": "Compass",
     "gen": "romhack",
     "supported": true,

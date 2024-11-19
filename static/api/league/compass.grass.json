@@ -4414,7 +4414,7 @@
             "type": "normal",
             "damage_class": "physical",
             "name": "Tackle",
-            "effect": "Tackle inflicts damage and has no secondary effect."
+            "effect": "Has no secondary effect."
           },
           {
             "power": 55,
@@ -4422,10 +4422,17 @@
             "damage_class": "special",
             "name": "Mud Shot",
             "effect": "Mud Shot inflicts damage and then lowers the target's Speed stat by one stage."
+          },
+          {
+            "power": 55,
+            "type": "rock",
+            "damage_class": "physical",
+            "name": "Rock Throw",
+            "effect": "Has no additional effect."
           }
         ],
         "ability": {
-          "name": "Sturdy",
+          "name": "Purifying Salt / Sturdy / Clear Body",
           "effect": "Sturdy makes the Pokémon unaffected by one-hit knockout moves."
         },
         "sprite": "932",
@@ -4461,7 +4468,7 @@
           }
         ],
         "ability": {
-          "name": "Chlorophyll",
+          "name": "Chlorophyll / Insomnia",
           "effect": "Boosts the Pokémon's Speed stat in harsh sunlight."
         },
         "sprite": "951",

@@ -18,7 +18,7 @@
        decoding=aysnc
 
        class:pixelated={pixelated}
-       src='{src}.png'
+       src='{src}'
        {loading}
        {width}
        {height}
@@ -34,3 +34,7 @@
     image-rendering: pixelated;
   }
 </style>
+
+<!-- Changes
+1. src.png -> src
+-->

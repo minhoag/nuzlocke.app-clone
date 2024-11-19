@@ -196,7 +196,7 @@
           class:text-yellow-500={selected === id}
         >
           <Logo
-            src="{IMG}{game.logo}"
+            src="{game.logo.includes('https') ? game.logo : IMG + game.logo}"
             aspect="192x96"
             role="presentation"
             alt={'Pokémon ' + game.title + ' logo'}
