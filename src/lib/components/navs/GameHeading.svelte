@@ -61,12 +61,11 @@
     { name: 'Grave', link: '/graveyard', icon: Grave }
   ]
 
-  const custom_game = [
-    {name: 'compass', img:'https://i.postimg.cc/yg7JK1Dn/logo.webp'}
+  const custom = [
+    { name: 'compass', link: 'https://file.hstatic.net/200000624275/file/compass.webp'}
   ]
-  const custom = custom_game.filter((i) => {
-    if (game?.game.includes(i.name)) return i;
-  })
+
+  let filter = (i) => custom.find(game => game.name === i) ?? game?.game
 
 </script>
 
@@ -80,7 +79,7 @@
       <a href="/" rel="external" class="{$$restProps.class || ''} home group">
         {#if game?.game}
           <Logo
-            src={custom.length === 0 ? "/assets/" + game?.game + ".png" : custom[0].img}
+            src={filter ? filter(game?.game).link : "/assets/" + game?.game}
             pictureClass="game--{game?.game}"
             class="h-10 w-auto max-md:pt-2 sm:w-20 md:mr-4 md:h-auto"
             alt="{game?.game} logo"

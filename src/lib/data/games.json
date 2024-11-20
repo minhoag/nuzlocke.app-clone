@@ -2,7 +2,7 @@
   "compass": {
     "pid": "compass",
     "lid": "compass",
-    "logo": "/assets/logos/compass.webp",
+    "logo": "https://file.hstatic.net/200000624275/file/compass_da9eef5292a543299c1b3ec07ca6a9bb.png",
     "title": "Compass",
     "gen": "romhack",
     "supported": true,

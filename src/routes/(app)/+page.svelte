@@ -103,7 +103,7 @@
               >
                 <Logo
                   loading="eager"
-                  src="{Games[active.game].logo.includes('assets') ? Games[active.game].logo : IMG + Games[active.game].logo}"
+                  src="{Games[active.game].logo.includes('https') ? Games[active.game].logo : IMG + Games[active.game].logo}"
                   alt="{active.game} logo"
                   pictureClass="game--{active.game}"
                   class="ml-2 inline"

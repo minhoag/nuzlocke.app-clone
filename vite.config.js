@@ -22,7 +22,7 @@ const config = {
 
   build: {
     sourcemap: true,
-    target: ['es2020']
+    target: ['es2020'],
   }
 };
 

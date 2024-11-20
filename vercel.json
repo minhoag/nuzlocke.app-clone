@@ -1,6 +1,7 @@
 {
-  "trailingSlash": false,
+  "trailingSlash": true,
   "rewrites": [
+    {"source": "/(.*)", "destination": "/"},
     {
       "source": "/sprites/unown-qm",
       "destination": "https://img.pokemondb.net/sprites/home/normal/unown-qm.png"
