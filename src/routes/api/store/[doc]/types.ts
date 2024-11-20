@@ -10,7 +10,7 @@ const EGame = z.enum([
     'blazevolt2_c', 'bl2', 'wh2', 'bl2c', 'wh2c', 'bl', 'wh', 'bd',
     'sp', 'radred', 'renplat', 'pt', 'd', 'p', 'or', 'as', 'em',
     'incem', 'ruby', 'saph', 'stormsilv', 'sacredgold', 'hg', 'ss',
-    'gold', 'silv', 'crys', 'fr', 'lg', 'yel', 'red', 'blue', 'compass'
+    'gold', 'silv', 'crys', 'fr', 'lg', 'yel', 'red', 'blue'
 ])
 const EDeath = z.enum(['boss', 'encounter', 'trainer'])
 const ECategory = z.enum(['random', 'mistake', 'sacrifice', 'drama', 'luck'])

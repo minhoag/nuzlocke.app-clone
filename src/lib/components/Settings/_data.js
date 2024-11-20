@@ -13,7 +13,6 @@ export const settingsData = [
   { index: 6, name: 'Missed Dupes', help: 'Missing an encounter will mark that Pokémon as a duplicate' },
   { index: 3, name: 'Level Caps', help: 'Display max level caps on Boss Battles', options: [ 'Off', 'Gyms', 'Gym & Rival', 'Everything' ]},
   { index: 4, id: 'team-caps', name: 'Team Size Caps', help: 'Display team size restriction information for Gym Leader battles' },
-  { index: 8, id: 'raids', name: 'Capture Raids', help: 'Count also Pokemon capture in Raids.' },
   { index: 999,
     name: 'Greenscreen',
     help: 'Greenscreen to make editing screenshots easier. <span class="max-md:hidden"><kbd>Alt+Click</kbd> theme to quickly toggle this.</span>',

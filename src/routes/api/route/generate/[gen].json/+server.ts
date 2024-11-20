@@ -1,14 +1,10 @@
-// @ts-ignore
 import { Expanded as Games } from '$lib/data/games.js';
-// @ts-ignore
 import Routes from '$lib/data/routes.json';
-// @ts-ignore
 import Patches from '$lib/data/patches.json';
 import Pokemon from '../../../pokemon.json/_data.js';
-// @ts-ignore
+
 import { normalise } from '$lib/utils/string'
 
-// @ts-ignore
 enum RouteType {
     route = 'route',
     gym = 'gym'

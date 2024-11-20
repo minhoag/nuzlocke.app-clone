@@ -2357,8 +2357,65 @@
       }
     ]
   },
+  "t4s": {
+    "name": "Great Tusk (Scarlet)",
+    "speciality": "",
+    "img": "/sprite/984",
+    "pokemon": [
+      {
+        "name": "great-tusk",
+        "level": "45",
+        "moves": [
+          {
+            "power": 50,
+            "type": "normal",
+            "damage_class": "physical",
+            "name": "Rapid Spin",
+            "effect": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
+          },
+          {
+            "power": 75,
+            "type": "fighting",
+            "damage_class": "physical",
+            "name": "Brick Break",
+            "effect": "Destroys Reflect and Light Screen."
+          },
+          {
+            "power": 65,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Knock Off",
+            "effect": "Target drops its held item."
+          },
+          {
+            "power": 75,
+            "type": "ground",
+            "damage_class": "physical",
+            "name": "Stomping Tantrum",
+            "effect": "Has double power if the user's last move failed."
+          }
+        ],
+        "ability": {
+          "name": "Protosynthesis"
+        },
+        "sprite": "984",
+        "types": [
+          "ground",
+          "fighting"
+        ],
+        "stats": {
+          "hp": 115,
+          "atk": 131,
+          "def": 131,
+          "spa": 53,
+          "spd": 53,
+          "spe": 87
+        }
+      }
+    ]
+  },
   "t4v": {
-    "name": "Iron Treads",
+    "name": "Iron Treads (Violet)",
     "speciality": "",
     "img": "/sprite/990",
     "pokemon": [

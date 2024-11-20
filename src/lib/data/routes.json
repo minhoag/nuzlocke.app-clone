@@ -81524,13 +81524,6 @@
       ]
     },
     {
-      "type": "gym",
-      "name": "Montenevera City",
-      "value": "6",
-      "group": "gym-leader",
-      "boss": "Ryme"
-    },
-    {
       "type": "route",
       "name": "South Province (A6)",
       "encounters": [
@@ -81686,9 +81679,16 @@
     {
       "type": "gym",
       "name": "Asado Desert",
-      "value": "t4s",
+      "value": "t4v",
       "group": "titan",
       "boss": "Quaking Earth Titan"
+    },
+    {
+      "type": "gym",
+      "name": "Asado Desert",
+      "value": "t4s",
+      "group": "titan",
+      "boss": "Great Tusk"
     },
     {
       "type": "route",

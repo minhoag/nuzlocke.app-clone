@@ -64,7 +64,6 @@
   const custom_game = [
     {name: 'compass', img:'https://i.postimg.cc/yg7JK1Dn/logo.webp'}
   ]
-
   const custom = custom_game.filter((i) => {
     if (game?.game.includes(i.name)) return i;
   })
@@ -281,7 +280,3 @@
     }
   }
 </style>
-
-<!-- Changes
-- Add 'custom', make custom filter custom game -> put in image src
--->
