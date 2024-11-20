@@ -4443,6 +4443,11 @@
   "arv0": {
     "name": "Arven",
     "speciality": "",
+    "img": {
+      "src": "/assets/arven",
+      "author": "ImNotHoro",
+      "link": "https://www.deviantart.com/imnothoro"
+    },
     "pokemon": [
       {
         "name": "nacli",
