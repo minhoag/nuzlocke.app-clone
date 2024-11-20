@@ -2,6 +2,7 @@ import z from 'zod'
 
 const EGame = z.enum([
     'blazingem',
+    'compass',
     'newgen',
     'glazed',
     'blaze', 'volt', 'rrss', 'emrunbun', 'unbound',

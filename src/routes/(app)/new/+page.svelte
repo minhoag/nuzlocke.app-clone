@@ -123,7 +123,7 @@
       >
         {#if Games[i].logo}
           <Logo
-            src={Games[i].logo.includes('https') ? Games[i].logo : IMG + Games[i].logo}
+            src={Games[i].logo.includes('assets') ? Games[i].logo : IMG + Games[i].logo}
             alt={Games[i].title + ' logo'}
             class="mr-2 w-12"
             role="presentation"
@@ -196,7 +196,7 @@
           class:text-yellow-500={selected === id}
         >
           <Logo
-            src="{game.logo.includes('https') ? game.logo : IMG + game.logo}"
+            src="{game.logo.includes('assets') ? game.logo : IMG + game.logo}"
             aspect="192x96"
             role="presentation"
             alt={'Pokémon ' + game.title + ' logo'}

@@ -23,7 +23,7 @@
     info
 
   import { browser } from '$app/environment'
-  import { onMount, getContext } from 'svelte'
+  import { getContext } from 'svelte'
   import { fade } from 'svelte/transition'
 
   import Pokemon from '$lib/components/pokemon-card.svelte'
@@ -130,7 +130,7 @@
       {#if img}
         <span class="relative -mx-5" class:grayscale={defeated}>
           <Picture
-            src={img.src.includes("https") ? img.src : "https://img.nuzlocke.app/" + img.src}
+            src={img.src.includes("assets") ? img.src : "https://img.nuzlocke.app/" + img.src}
             alt={name}
             pixelated
             className="w-18 md:w-36"
