@@ -4,13 +4,15 @@ import badges from './_badges.css'
 import blazingem from './_pokemon-blazingem.css'
 import radicalred from './_pokemon-radicalred.css'
 import pokemon from './_pokemon.css'
+import item from './_item.css'
 
 const clean = new Clean({ level: 2 })
 const resourceMap = {
   'pokemon-blazingem': blazingem,
   'pokemon-radicalred': radicalred,
   pokemon,
-  badges
+  badges,
+  item
 }
 
 export async function GET({ params }) {
