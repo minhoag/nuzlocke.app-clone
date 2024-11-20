@@ -123,7 +123,7 @@
       >
         {#if Games[i].logo}
           <Logo
-            src="{IMG}{Games[i].logo}"
+            src={Games[i].logo.includes('https') ? Games[i].logo : IMG + Games[i].logo}
             alt={Games[i].title + ' logo'}
             class="mr-2 w-12"
             role="presentation"
