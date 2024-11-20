@@ -9,80 +9,119 @@
     },
     "pokemon": [
       {
-        "name": "nymble",
-        "level": "14",
+        "name": "spidops",
+        "level": "23",
         "moves": [
           {
-            "power": 50,
-            "type": "bug",
-            "damage_class": "special",
-            "name": "Struggle Bug",
-            "effect": "Has a 100% chance to lower the target's Special Attack by one stage."
-          },
-          {
-            "power": 30,
-            "type": "fighting",
-            "damage_class": "physical",
-            "name": "Double Kick",
-            "effect": "Hits twice in one turn."
-          }
-        ],
-        "ability": {
-          "name": "Swarm",
-          "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
-        },
-        "sprite": "919",
-        "types": [
-          "bug"
-        ],
-        "stats": {
-          "hp": 33,
-          "atk": 46,
-          "def": 40,
-          "spa": 21,
-          "spd": 25,
-          "spe": 45
-        }
-      },
-      {
-        "name": "tarountula",
-        "level": "14",
-        "moves": [
-          {
-            "power": 60,
-            "type": "bug",
-            "damage_class": "physical",
-            "name": "Bug Bite",
-            "effect": "If target has a berry, inflicts double damage and uses the berry."
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Block",
+            "effect": "Opponent cannot flee or switch."
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Assurance",
-            "effect": "Power is doubled if the target has already received damage this turn."
+            "effect": "Deals damage, and if the target has already taken damage in this turn its power doubles to 120."
           }
         ],
         "ability": {
-          "name": "Insomnia",
-          "effect": "Prevents sleep."
+          "name": "Insomnia / Stakeout "
         },
-        "sprite": "917",
+        "sprite": "918",
         "types": [
           "bug"
         ],
         "stats": {
-          "hp": 35,
-          "atk": 41,
-          "def": 45,
-          "spa": 29,
-          "spd": 40,
-          "spe": 20
+          "hp": 60,
+          "atk": 79,
+          "def": 92,
+          "spa": 52,
+          "spd": 86,
+          "spe": 35
+        }
+      },
+      {
+        "name": "masquerain",
+        "level": "24",
+        "moves": [
+          {
+            "power": 50,
+            "type": "water",
+            "damage_class": "special",
+            "name": "Chilling Water",
+            "effect": "Lowers opponent's Attack."
+          },
+          {
+            "power": 60,
+            "type": "flying",
+            "damage_class": "special",
+            "name": "Aerial Ace",
+            "effect": "Deals damage and ignores changes to the Accuracy and Evasion stats."
+          }
+        ],
+        "ability": {
+          "name": "Intimidate",
+          "effect": "Lower Attack of all opponents by one stage"
+        },
+        "sprite": "284",
+        "types": [
+          "bug"
+        ],
+        "stats": {
+          "hp": 70,
+          "atk": 60,
+          "def": 62,
+          "spa": 100,
+          "spd": 82,
+          "spe": 80
+        }
+      },
+      {
+        "name": "lokix",
+        "level": "24",
+        "moves": [
+          {
+            "power": 60,
+            "type": "bug",
+            "damage_class": "physical",
+            "name": "Assurance",
+            "effect": "If target has already taken damage in this turn, its power doubles to 120."
+          },
+          {
+            "power": 80,
+            "type": "bug",
+            "damage_class": "physical",
+            "name": "Lunge",
+            "effect": "Lowers the target's Attack stat."
+          }
+        ],
+        "ability": {
+          "name": "Tinted Lens"
+        },
+        "held": {
+          "sprite":"occa-berry",
+          "name":"Occa Berry",
+          "effect":"Consumed when struck by a super-effective Fire-type attack to halve the damage."
+        },
+        "sprite": "920",
+        "types": [
+          "bug",
+          "dark"
+        ],
+        "stats": {
+          "hp": 71,
+          "atk": 102,
+          "def": 78,
+          "spa": 52,
+          "spd": 55,
+          "spe": 92
         }
       },
       {
         "name": "teddiursa",
-        "level": "15",
+        "level": "25",
         "moves": [
           {
             "power": 40,
@@ -4399,6 +4438,11 @@
   "arv0": {
     "name": "Arven",
     "speciality": "",
+    "img": {
+      "src": "/assets/arven",
+      "author": "mid117",
+      "link": "https://www.deviantart.com/mid117"
+    },
     "pokemon": [
       {
         "name": "nacli",
