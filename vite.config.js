@@ -16,7 +16,7 @@ const config = {
       $data: path.resolve('./src/lib/data'),
       $store: path.resolve('./src/lib/store.js'),
       $icons: path.resolve('./src/lib/components/icons/IconSet.ts'),
-      $assets: path.resolve('./src')
+      $assets: path.resolve('./src/lib/data')
     }
   },
 
