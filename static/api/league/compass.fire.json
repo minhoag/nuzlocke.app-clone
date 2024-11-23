@@ -19,6 +19,12 @@
             "effect": "Opponent cannot flee or switch."
           },
           {
+            "type": "bug",
+            "damage_class": "status",
+            "name": "Silk Trap",
+            "effect": "Protects and lowers opponent's Speed on contact."
+          },
+          {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
@@ -1521,7 +1527,7 @@
     "pokemon": [
       {
         "name": "klawf",
-        "level": "16",
+        "level": "30",
         "moves": [
           {
             "power": 55,
@@ -1537,10 +1543,10 @@
             "effect": "Has a 50% chance to lower the target's Defense by one stage."
           },
           {
-            "type": "normal",
-            "damage_class": "status",
-            "name": "Block",
-            "effect": "Prevents the target from leaving battle."
+            "power": 80,
+            "type": "bug",
+            "damage_class": "physical",
+            "name": "X-Scissor"
           },
           {
             "power": 60,
