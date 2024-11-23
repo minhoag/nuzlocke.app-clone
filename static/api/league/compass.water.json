@@ -168,79 +168,121 @@
     },
     "pokemon": [
       {
-        "name": "petilil",
-        "level": "16",
+        "name": "brambleghast",
+        "level": "28",
         "moves": [
           {
-            "type": "grass",
+            "type": "ground",
             "damage_class": "status",
-            "name": "Sleep Powder",
-            "effect": "Puts the target to sleep."
+            "name": "Spike",
+            "effect": "Hurts foes when they switch out."
           },
           {
-            "power": 40,
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Substitute",
+            "effect": "Uses HP to creates a decoy that takes hits."
+          },
+          {
+            "power": 75,
             "type": "grass",
             "damage_class": "special",
-            "name": "Mega Drain",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "name": "Giga Drain",
+            "effect": "Deals damage and recover 50% of the HP drained."
+          },
+          {
+            "power": 28,
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Night Shade",
+            "effect": "The damage of Night Shade is equal to the user's level."
           }
         ],
         "ability": {
-          "name": "Own Tempo",
-          "effect": "Prevents confusion."
+          "name": "Wind Rider",
+          "effect": "Immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit."
         },
-        "sprite": "548",
+        "sprite": "947",
         "types": [
-          "grass"
+          "grass",
+          "ghost"
         ],
         "stats": {
-          "hp": 45,
-          "atk": 35,
-          "def": 50,
-          "spa": 70,
-          "spd": 50,
-          "spe": 30
+          "hp": 55,
+          "atk": 115,
+          "def": 70,
+          "spa": 80,
+          "spd": 70,
+          "spe": 90
         }
       },
       {
-        "name": "smoliv",
-        "level": "16",
+        "name": "tropius",
+        "level": "29",
         "moves": [
           {
-            "power": 40,
-            "type": "normal",
+            "power": 80,
+            "type": "fighting",
             "damage_class": "physical",
-            "name": "Tackle"
+            "name": "Body Press",
+            "effect": "The higher the user's Defense, the stronger the attack."
           },
           {
-            "power": 55,
-            "type": "grass",
-            "damage_class": "physical",
-            "name": "Razor Leaf",
-            "effect": "Has an increased chance for a critical hit."
+            "type": "normal",
+            "damage_class": "status",
+            "name": "unknown",
+            "effect": "unknown"
           }
         ],
         "ability": {
-          "name": "Early Bird",
-          "effect": "Makes sleep pass twice as quickly."
+          "name": "Chlorophyll",
+          "effect": "Boosts Pokémon’s Speed in sunshine."
         },
-        "sprite": "928",
+        "sprite": "357",
         "types": [
           "grass",
-          "normal"
+          "flying"
         ],
         "stats": {
-          "hp": 41,
-          "atk": 35,
-          "def": 45,
-          "spa": 58,
-          "spd": 51,
-          "spe": 30
+          "hp": 99,
+          "atk": 68,
+          "def": 83,
+          "spa": 72,
+          "spd": 87,
+          "spe": 51
+        }
+      },
+      {
+        "name": "Hisuian-Electrode",
+        "level": "30",
+        "moves": [
+          {
+            "power": 70,
+            "type": "electric",
+            "damage_class": "special",
+            "name": "Volt Switch"
+          }
+        ],
+        "ability": {
+          "name": "Soundproof /  Static / Aftermath"
+        },
+        "sprite": "101",
+        "types": [
+          "electric",
+          "grass"
+        ],
+        "stats": {
+          "hp": 60,
+          "atk": 50,
+          "def": 70,
+          "spa": 80,
+          "spd": 80,
+          "spe": 150
         }
       },
       {
         "name": "sudowoodo",
-        "level": "17",
+        "level": "31",
         "moves": [
           {
             "power": 50,
@@ -253,11 +295,17 @@
             "type": "rock",
             "damage_class": "physical",
             "name": "Rock Throw"
+          },
+          {
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Mimic",
+            "effect": "Mimic copies the last move used by the target."
           }
         ],
         "ability": {
-          "name": "Sturdy",
-          "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+          "name": "Rattled",
+          "effect": "When a Pokémon with Rattled is hit by a Bug, Ghost or Dark type move, its Speed is raised one stage."
         },
         "tera": "grass",
         "sprite": "185",
