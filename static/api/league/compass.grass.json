@@ -259,7 +259,7 @@
         }
       },
       {
-        "name": "Hisuian-Electrode",
+        "name": "electrode-hisui",
         "level": "30",
         "moves": [
           {
@@ -272,7 +272,7 @@
         "ability": {
           "name": "Soundproof /  Static / Aftermath"
         },
-        "sprite": "101",
+        "sprite": "10232",
         "types": [
           "electric",
           "grass"
