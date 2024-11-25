@@ -6413,6 +6413,12 @@
             "effect": "Has no secondary effect."
           },
           {
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Harden",
+            "effect": "Boost users Defense by 1 stage."
+          },
+          {
             "power": 55,
             "type": "ground",
             "damage_class": "special",
@@ -6428,8 +6434,8 @@
           }
         ],
         "ability": {
-          "name": "Purifying Salt / Sturdy / Clear Body",
-          "effect": "Sturdy makes the Pokémon unaffected by one-hit knockout moves."
+          "name": "Purifying Salt",
+          "effect": "Grants immunity from all status conditions and halves the damage from Ghost-type."
         },
         "sprite": "932",
         "types": [
@@ -6464,8 +6470,8 @@
           }
         ],
         "ability": {
-          "name": "Chlorophyll / Insomnia",
-          "effect": "Boosts the Pokémon's Speed stat in harsh sunlight."
+          "name": "Insomnia",
+          "effect": "Prevents sleep."
         },
         "sprite": "951",
         "types": [
