@@ -70,7 +70,7 @@
 
 <main>
   <h1 aria-level="1" class="mx-auto text-center font-mono text-4xl">
-    Pokémon
+    Domtronn
     <Picture
       src="/logo"
       loading="eager"
@@ -79,9 +79,10 @@
       alt="Nuzlocke logo"
       className="transition h-auto md:h-16 mt-2 mx-auto"
     />
-    tracker
   </h1>
-
+  <h3 aria-level="1" class="mx-auto text-center font-mono text-lg">
+    Added Pokémon SV encounter and Pokémon Compass!
+  </h3>
   <div>
     <PixelatedContainer className="container__index">
       <div class="flex h-36 flex-col justify-center font-bold">
@@ -175,10 +176,7 @@
   </div>
 
   <p>
-    Keep track of your Pokémon encounters across multiple Nuzlocke runs, and
-    prepare for Gym battles and Rival fights so you never wipe again! Get
-    insights into team match ups, compare stat blocks and get detail on Gym
-    movesets & abilities.
+    Manage multiple Pokémon Nuzlocke games effortlessly with our web app, designed to track encounters, team progress, rules, and in-game achievements.
   </p>
 </main>
 
