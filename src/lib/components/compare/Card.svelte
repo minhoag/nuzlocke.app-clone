@@ -3,7 +3,7 @@
     className = ''
 
   import { fade } from 'svelte/transition'
-
+  import '$lib/data/assets/css/items.css'
   import { Icon, PIcon, Tooltip } from '$c/core'
   import { Hand, Ball, Loop as Badge } from '$icons'
 

@@ -13,6 +13,20 @@
         "level": "23",
         "moves": [
           {
+            "power": 60,
+            "type": "bug",
+            "damage_class": "physical",
+            "name": "Bug Bite",
+            "effect": "If the target is holding a Berry, the user eats it and gains its effect"
+          },
+          {
+            "power": 60,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Assurance",
+            "effect": "Deals damage, and if the target has already taken damage in this turn its power doubles to 120."
+          },
+          {
             "type": "normal",
             "damage_class": "status",
             "name": "Block",
@@ -23,18 +37,12 @@
             "damage_class": "status",
             "name": "Silk Trap",
             "effect": "Protects and lowers opponent's Speed on contact."
-          },
-          {
-            "power": 60,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Assurance",
-            "effect": "Deals damage, and if the target has already taken damage in this turn its power doubles to 120."
           }
         ],
         "ability": {
           "name": "Insomnia / Stakeout "
         },
+        "held": "Babiri Berry",
         "sprite": "918",
         "types": [
           "bug"
@@ -53,6 +61,20 @@
         "level": "24",
         "moves": [
           {
+            "power": 60,
+            "type": "flying",
+            "damage_class": "special",
+            "name": "Air Cutter",
+            "effect": "Deals damage and has an increased critical hit ratio."
+          },
+          {
+            "power": 50,
+            "type": "bug",
+            "damage_class": "special",
+            "name": "Struggle Bug",
+            "effect": "Deals damage and lowers the target's Special Attack."
+          },
+          {
             "power": 50,
             "type": "water",
             "damage_class": "special",
@@ -60,20 +82,21 @@
             "effect": "Lowers opponent's Attack."
           },
           {
-            "power": 60,
-            "type": "flying",
-            "damage_class": "special",
-            "name": "Aerial Ace",
-            "effect": "Deals damage and ignores changes to the Accuracy and Evasion stats."
+            "type": "bug",
+            "damage_class": "status",
+            "name": "Sticky Web",
+            "effect": "Sets up sticky net, which lowers Speed of Pokémon switching into battle."
           }
         ],
         "ability": {
           "name": "Intimidate",
           "effect": "Lower Attack of all opponents by one stage"
         },
+        "held": "Kebia Berry",
         "sprite": "284",
         "types": [
-          "bug"
+          "bug",
+          "flying"
         ],
         "stats": {
           "hp": 70,
@@ -89,18 +112,31 @@
         "level": "24",
         "moves": [
           {
-            "power": 60,
-            "type": "bug",
-            "damage_class": "physical",
-            "name": "Assurance",
-            "effect": "If target has already taken damage in this turn, its power doubles to 120."
-          },
-          {
             "power": 80,
             "type": "bug",
             "damage_class": "physical",
             "name": "Lunge",
             "effect": "Lowers the target's Attack stat."
+          },
+          {
+            "power": 60,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Assurance",
+            "effect": "If target has already taken damage in this turn, its power doubles to 120."
+          },
+          {
+            "power": 30,
+            "type": "fighting",
+            "damage_class": "physical",
+            "name": "Double Kick",
+            "effect": "Deals damage and will strike twice"
+          },
+          {
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Screech",
+            "effect": "Lowers the target's Defense by two stages."
           }
         ],
         "ability": {
@@ -137,11 +173,25 @@
             "effect": "Power doubles every turn this move is used in succession after the first, maxing out after five turns."
           },
           {
+            "power": 70,
+            "type": "normal",
+            "damage_class": "physical",
+            "name": "Slash",
+            "effect": "Deals damage and has an increased critical hit ratio."
+          },
+          {
+            "power": 30,
+            "type": "ghost",
+            "damage_class": "physical",
+            "name": "Lick",
+            "effect": "Deals damage and has a 30% chance of paralyzing the target."
+          },
+          {
             "power": 18,
             "type": "normal",
             "damage_class": "physical",
             "name": "Fury Swipes",
-            "effect": "Hits 2-5 times in one turn."
+            "effect": "Fury Swipes hits 2-5 times per turn used."
           }
         ],
         "ability": {
@@ -175,38 +225,37 @@
     "pokemon": [
       {
         "name": "brambleghast",
-        "level": "28",
+        "level": "29",
         "moves": [
           {
+            "power": 0,
             "type": "ground",
             "damage_class": "status",
-            "name": "Spike",
-            "effect": "Hurts foes when they switch out."
+            "name": "Spikes"
           },
           {
+            "power": 0,
             "type": "normal",
             "damage_class": "status",
-            "name": "Substitute",
-            "effect": "Uses HP to creates a decoy that takes hits."
+            "name": "Substitute"
+          },
+          {
+            "power": 29,
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Night Shade",
+            "effect": "Night Shade is equal to the user's level."
           },
           {
             "power": 75,
             "type": "grass",
             "damage_class": "special",
             "name": "Giga Drain",
-            "effect": "Deals damage and recover 50% of the HP drained."
-          },
-          {
-            "power": 28,
-            "type": "ghost",
-            "damage_class": "special",
-            "name": "Night Shade",
-            "effect": "The damage of Night Shade is equal to the user's level."
+            "effect": "Giga Drain deals damage and recover 50% of the HP drained."
           }
         ],
         "ability": {
-          "name": "Wind Rider",
-          "effect": "Immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit."
+          "name": "Wind Rider / Infiltrator"
         },
         "sprite": "947",
         "types": [
@@ -227,17 +276,30 @@
         "level": "29",
         "moves": [
           {
+            "power": 75,
+            "type": "grass",
+            "damage_class": "special",
+            "name": "Giga Drain"
+          },
+          {
+            "power": 75,
+            "type": "flying",
+            "damage_class": "special",
+            "name": "Air Slash",
+            "effect": "Air Slash deals damage and has a 30% chance of causing the target to flinch"
+          },
+          {
+            "type": "flying",
+            "damage_class": "status",
+            "name": "Tailwind",
+            "status": "Doubles the speed of all Pokémon in the user's party for 4 turns."
+          },
+          {
             "power": 80,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Body Press",
             "effect": "The higher the user's Defense, the stronger the attack."
-          },
-          {
-            "type": "normal",
-            "damage_class": "status",
-            "name": "unknown",
-            "effect": "unknown"
           }
         ],
         "ability": {
@@ -263,10 +325,32 @@
         "level": "30",
         "moves": [
           {
+            "power": 75,
+            "type": "grass",
+            "damage_class": "special",
+            "name": "Giga Drain",
+            "effect": "Giga Drain deals damage and recover 50% of the HP drained."
+          },
+          {
+            "power": 90,
+            "type": "grass",
+            "damage_class": "special",
+            "name": "Energy Ball",
+            "effect": "Deals damage and has a 10% chance of lowering the target's Special Defense."
+          },
+          {
+            "power": 55,
+            "type": "electric",
+            "damage_class": "special",
+            "name": "Electroweb",
+            "effect": "Deals damage and lowers the target's Speed by one stage."
+          },
+          {
             "power": 70,
             "type": "electric",
             "damage_class": "special",
-            "name": "Volt Switch"
+            "name": "Volt Switch",
+            "effect": "Deals damage and switch out of battle."
           }
         ],
         "ability": {
@@ -292,21 +376,27 @@
         "moves": [
           {
             "power": 50,
-            "type": "grass",
-            "damage_class": "physical",
-            "name": "Trailblaze"
-          },
-          {
-            "power": 50,
             "type": "rock",
             "damage_class": "physical",
-            "name": "Rock Throw"
+            "name": "Smack Down"
+          },
+          {
+            "power": 75,
+            "type": "rock",
+            "damage_class": "physical",
+            "name": "Rock Slide"
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Mimic",
-            "effect": "Mimic copies the last move used by the target."
+            "effect": "Copies the last move used by the target"
+          },
+          {
+            "power": 50,
+            "type": "grass",
+            "damage_class": "physical",
+            "name": "Trailblaze"
           }
         ],
         "ability": {
@@ -339,70 +429,43 @@
     },
     "pokemon": [
       {
-        "name": "wattrel",
-        "level": "23",
+        "name": "bellibolt",
+        "level": "45",
         "moves": [
-          {
-            "power": 60,
-            "type": "flying",
-            "damage_class": "physical",
-            "name": "Pluck",
-            "effect": "If target has a berry, inflicts double damage and uses the berry."
-          },
-          {
-            "power": 40,
-            "priority": 1,
-            "type": "normal",
-            "damage_class": "physical",
-            "name": "Quick Attack"
-          },
           {
             "power": 65,
             "type": "electric",
-            "damage_class": "physical",
-            "name": "Spark",
-            "effect": "Has a 30% chance to paralyze the target."
-          }
-        ],
-        "ability": {
-          "name": "Wind Power"
-        },
-        "sprite": "940",
-        "types": [
-          "electric",
-          "flying"
-        ],
-        "stats": {
-          "hp": 40,
-          "atk": 40,
-          "def": 35,
-          "spa": 55,
-          "spd": 40,
-          "spe": 70
-        }
-      },
-      {
-        "name": "bellibolt",
-        "level": "23",
-        "moves": [
+            "damage_class": "special",
+            "name": "Parabolic Charge"
+          },
           {
-            "power": 40,
+            "power": 0,
+            "type": "water",
+            "damage_class": "status",
+            "name": "Soak"
+          },
+          {
+            "power": 90,
             "type": "water",
             "damage_class": "special",
-            "name": "Water Gun"
+            "name": "Muddy Water"
           },
           {
-            "power": 65,
-            "type": "electric",
-            "damage_class": "physical",
-            "name": "Spark",
-            "effect": "Has a 30% chance to paralyze the target."
+            "power": 85,
+            "type": "rock",
+            "damage_class": "special",
+            "name": "Paleo Wave"
           }
         ],
         "ability": {
-          "name": "Electromorphosis"
+          "name": "Electromorphosis / Static / Damp"
         },
-        "sprite": "939",
+        "held": {
+          "sprite": "razor-claw",
+          "name": "Razor Claw",
+          "effect": "updating..."
+        },
+        "sprite": 939,
         "types": [
           "electric"
         ],
@@ -416,72 +479,194 @@
         }
       },
       {
-        "name": "luxio",
-        "level": "23",
+        "name": "raichu",
+        "level": "44",
         "moves": [
           {
-            "power": 65,
-            "type": "electric",
-            "damage_class": "physical",
-            "name": "Spark",
-            "effect": "Has a 30% chance to paralyze the target."
+            "power": 0,
+            "type": "psychic",
+            "damage_class": "status",
+            "name": "Light Screen"
           },
           {
-            "power": 60,
-            "type": "dark",
+            "power": 0,
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Growl"
+          },
+          {
+            "power": 0,
+            "type": "electric",
+            "damage_class": "status",
+            "name": "Electric Terrain"
+          },
+          {
+            "power": 20,
+            "type": "electric",
             "damage_class": "physical",
-            "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
+            "name": "Nuzzle"
           }
         ],
         "ability": {
-          "name": "Intimidate",
-          "effect": "Lowers opponents' Attack one stage upon entering battle."
+          "name": "Static / Lightning Rod"
         },
-        "sprite": "404",
+        "held": {
+          "sprite": "electric-seed",
+          "name": "Electric Seed",
+          "effect": "updating..."
+        },
+        "sprite": 26,
         "types": [
           "electric"
         ],
         "stats": {
           "hp": 60,
-          "atk": 85,
-          "def": 49,
-          "spa": 60,
-          "spd": 49,
-          "spe": 60
+          "atk": 90,
+          "def": 55,
+          "spa": 90,
+          "spd": 80,
+          "spe": 110
+        }
+      },
+      {
+        "name": "kilowattrel",
+        "level": "45",
+        "moves": [
+          {
+            "power": 70,
+            "type": "electric",
+            "damage_class": "special",
+            "name": "Volt Switch"
+          },
+          {
+            "power": 75,
+            "type": "flying",
+            "damage_class": "special",
+            "name": "Air Slash"
+          },
+          {
+            "power": 0,
+            "type": "electric",
+            "damage_class": "special",
+            "name": "Electro Ball"
+          },
+          {
+            "power": 0,
+            "type": "flying",
+            "damage_class": "status",
+            "name": "Tailwind"
+          }
+        ],
+        "ability": {
+          "name": "Wind Power / Volt Absorb / Competitive"
+        },
+        "held": {
+          "sprite": "razor-claw",
+          "name": "Razor Claw",
+          "effect": "updating..."
+        },
+        "sprite": 941,
+        "types": [
+          "electric",
+          "flying"
+        ],
+        "stats": {
+          "hp": 70,
+          "atk": 70,
+          "def": 60,
+          "spa": 105,
+          "spd": 60,
+          "spe": 125
+        }
+      },
+      {
+        "name": "ampharos",
+        "level": "44",
+        "moves": [
+          {
+            "power": 80,
+            "type": "electric",
+            "damage_class": "special",
+            "name": "Discharge"
+          },
+          {
+            "power": 0,
+            "type": "electric",
+            "damage_class": "status",
+            "name": "Eerie Impulse"
+          },
+          {
+            "power": 0,
+            "type": "psychic",
+            "damage_class": "status",
+            "name": "Reflect"
+          },
+          {
+            "power": 85,
+            "type": "dragon",
+            "damage_class": "special",
+            "name": "Dragon Pulse"
+          }
+        ],
+        "ability": {
+          "name": "Static / Plus"
+        },
+        "held": {
+          "sprite": "expert-belt",
+          "name": "Expert Belt",
+          "effect": "updating..."
+        },
+        "sprite": 181,
+        "types": [
+          "electric"
+        ],
+        "stats": {
+          "hp": 90,
+          "atk": 75,
+          "def": 85,
+          "spa": 115,
+          "spd": 90,
+          "spe": 55
         }
       },
       {
         "name": "mismagius",
-        "level": "24",
+        "level": "45",
         "moves": [
           {
-            "power": 50,
+            "power": 75,
+            "type": "fire",
+            "damage_class": "special",
+            "name": "Mystical Fire"
+          },
+          {
+            "power": 80,
+            "type": "fairy",
+            "damage_class": "special",
+            "name": "Dazzling Gleam"
+          },
+          {
+            "power": 60,
+            "type": "normal",
+            "damage_class": "special",
+            "name": "Swift"
+          },
+          {
+            "power": 90,
             "type": "electric",
             "damage_class": "special",
-            "name": "Charge Beam",
-            "effect": "Has a 70% chance to raise the user's Special Attack by one stage."
-          },
-          {
-            "power": 65,
-            "type": "ghost",
-            "damage_class": "special",
-            "name": "Hex",
-            "effect": "Has double power if the target has a major status ailment."
-          },
-          {
-            "type": "ghost",
-            "damage_class": "status",
-            "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "name": "Thunderbolt"
           }
         ],
         "ability": {
-          "name": "Levitate",
-          "effect": "Evades ground moves."
+          "name": "Levitate"
         },
-        "tera": "electric",
-        "sprite": "429",
+        "held": {
+          "sprite": "cell-battery",
+          "name": "Cell Battery",
+          "effect": "updating..."
+        },
+        "sprite": 429,
         "types": [
           "ghost"
         ],
@@ -492,7 +677,8 @@
           "spa": 105,
           "spd": 105,
           "spe": 105
-        }
+        },
+        "tera": "electric"
       }
     ]
   },
