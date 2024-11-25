@@ -5,7 +5,7 @@
 
 <footer class={$$restProps.class || ''}>
 
-  <span class='inline-flex items-center mb-2'>Made by <strong class="mx-1"> Domtronn</strong></span>
+  <span class='inline-flex items-center mb-2'>Made by <strong class="mx-1"><a href="https://github.com/domtronn">Domtronn</a></strong></span>
   <br />
   <span class='inline-flex items-center mb-2'>Continue to added content by <strong class="mx-1">Wumps</strong></span>
   <br />
