@@ -1182,294 +1182,40 @@
     },
     "pokemon": [
       {
-        "name": "ninetales",
-        "level": "100",
-        "moves": [
-          {
-            "power": 90,
-            "type": "grass",
-            "damage_class": "special",
-            "name": "Energy Ball"
-          },
-          {
-            "power": 70,
-            "type": "fire",
-            "damage_class": "special",
-            "name": "Burning Jealousy"
-          },
-          {
-            "power": 70,
-            "type": "fire",
-            "damage_class": "special",
-            "name": "Burning Jealousy"
-          },
-          {
-            "power": 80,
-            "type": "ghost",
-            "damage_class": "special",
-            "name": "Shadow Ball"
-          }
-        ],
-        "ability": {
-          "name": "Flash Fire / Drought"
-        },
-        "held": {
-          "sprite": "assault-vest",
-          "name": "Assault Vest",
-          "effect": "updating..."
-        },
-        "sprite": 38,
-        "types": [
-          "fire"
-        ],
-        "stats": {
-          "hp": 73,
-          "atk": 76,
-          "def": 75,
-          "spa": 81,
-          "spd": 100,
-          "spe": 100
-        }
-      },
-      {
-        "name": "basculegion",
-        "level": "100",
-        "moves": [
-          {
-            "power": 50,
-            "type": "ghost",
-            "damage_class": "physical",
-            "name": "Last Respects"
-          },
-          {
-            "power": 120,
-            "type": "water",
-            "damage_class": "physical",
-            "name": "Wave Crash"
-          },
-          {
-            "power": 90,
-            "type": "ghost",
-            "damage_class": "physical",
-            "name": "Phantom Force"
-          },
-          {
-            "power": 90,
-            "type": "water",
-            "damage_class": "special",
-            "name": "Surf"
-          }
-        ],
-        "ability": {
-          "name": "Swift Swim / Adaptability / Mold Breaker"
-        },
-        "held": {
-          "sprite": "spell-tag",
-          "name": "Spell Tag",
-          "effect": "updating..."
-        },
-        "sprite": 902,
-        "types": [
-          "water",
-          "ghost"
-        ],
-        "stats": {
-          "hp": 120,
-          "atk": 112,
-          "def": 65,
-          "spa": 80,
-          "spd": 75,
-          "spe": 78
-        }
-      },
-      {
-        "name": "toxtricity",
-        "level": "100",
-        "moves": [
-          {
-            "power": 80,
-            "type": "electric",
-            "damage_class": "special",
-            "name": "Overdrive"
-          },
-          {
-            "power": 95,
-            "type": "poison",
-            "damage_class": "special",
-            "name": "Sludge Wave"
-          },
-          {
-            "power": 80,
-            "type": "electric",
-            "damage_class": "special",
-            "name": "Discharge"
-          },
-          {
-            "power": 120,
-            "type": "poison",
-            "damage_class": "special",
-            "name": "Belch"
-          }
-        ],
-        "ability": {
-          "name": "Punk Rock / Plus / Technician"
-        },
-        "held": {
-          "sprite": "poison-barb",
-          "name": "Poison Barb",
-          "effect": "updating..."
-        },
-        "sprite": 849,
-        "types": [
-          "electric",
-          "poison"
-        ],
-        "stats": {
-          "hp": 75,
-          "atk": 98,
-          "def": 70,
-          "spa": 114,
-          "spd": 70,
-          "spe": 75
-        }
-      },
-      {
-        "name": "trevenant",
-        "level": "100",
-        "moves": [
-          {
-            "power": 90,
-            "type": "ghost",
-            "damage_class": "physical",
-            "name": "Phantom Force"
-          },
-          {
-            "power": 120,
-            "type": "grass",
-            "damage_class": "physical",
-            "name": "Wood Hammer"
-          },
-          {
-            "power": 80,
-            "type": "bug",
-            "damage_class": "physical",
-            "name": "X-Scissor"
-          },
-          {
-            "power": 100,
-            "type": "ground",
-            "damage_class": "physical",
-            "name": "Earthquake"
-          }
-        ],
-        "ability": {
-          "name": "Natural Cure / Frisk / Harvest"
-        },
-        "held": {
-          "sprite": "quick-claw",
-          "name": "Quick Claw",
-          "effect": "updating..."
-        },
-        "sprite": 709,
-        "types": [
-          "ghost",
-          "grass"
-        ],
-        "stats": {
-          "hp": 85,
-          "atk": 110,
-          "def": 76,
-          "spa": 65,
-          "spd": 82,
-          "spe": 56
-        }
-      },
-      {
-        "name": "noivern",
-        "level": "100",
-        "moves": [
-          {
-            "power": 75,
-            "type": "flying",
-            "damage_class": "special",
-            "name": "Air Slash"
-          },
-          {
-            "power": 85,
-            "type": "dragon",
-            "damage_class": "special",
-            "name": "Dragon Pulse"
-          },
-          {
-            "power": 80,
-            "type": "dark",
-            "damage_class": "special",
-            "name": "Dark Pulse"
-          },
-          {
-            "power": 140,
-            "type": "normal",
-            "damage_class": "special",
-            "name": "Boomburst"
-          }
-        ],
-        "ability": {
-          "name": "Frisk / Infiltrator / Telepathy"
-        },
-        "held": {
-          "sprite": "black-glasses",
-          "name": "Black Glasses",
-          "effect": "updating..."
-        },
-        "sprite": 715,
-        "types": [
-          "flying",
-          "dragon"
-        ],
-        "stats": {
-          "hp": 85,
-          "atk": 70,
-          "def": 80,
-          "spa": 97,
-          "spd": 80,
-          "spe": 123
-        }
-      },
-      {
         "name": "houndstone",
-        "level": "100",
+        "level": "62",
         "moves": [
           {
             "power": 90,
             "type": "ghost",
             "damage_class": "physical",
             "name": "Phantom Force"
-          },
-          {
-            "power": 80,
-            "type": "ghost",
-            "damage_class": "special",
-            "name": "Shadow Ball"
-          },
-          {
-            "power": 85,
-            "type": "psychic",
-            "damage_class": "physical",
-            "name": "Psychic Fangs"
           },
           {
             "power": 110,
             "type": "ghost",
             "damage_class": "physical",
             "name": "Poltergeist"
+          },
+          {
+            "power": 0,
+            "type": "fire",
+            "damage_class": "status",
+            "name": "Will-O-Wisp"
+          },
+          {
+            "power": 85,
+            "type": "psychic",
+            "damage_class": "physical",
+            "name": "Psychic Fangs"
           }
         ],
         "ability": {
           "name": "Sand Rush / Fluffy"
         },
         "held": {
-          "sprite": "clear-amulet",
-          "name": "Clear Amulet",
+          "sprite": "ability-shield",
+          "name": "Ability Shield",
           "effect": "updating..."
         },
         "sprite": 972,
@@ -1484,6 +1230,261 @@
           "spd": 97,
           "spe": 68
         }
+      },
+      {
+        "name": "skeledirge",
+        "level": "62",
+        "moves": [
+          {
+            "power": 65,
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Hex"
+          },
+          {
+            "power": 80,
+            "type": "fire",
+            "damage_class": "special",
+            "name": "Torch Song"
+          },
+          {
+            "power": 90,
+            "type": "ground",
+            "damage_class": "special",
+            "name": "Earth Power"
+          },
+          {
+            "power": 80,
+            "type": "fire",
+            "damage_class": "special",
+            "name": "Fire Pledge"
+          }
+        ],
+        "ability": {
+          "name": "Blaze / Unaware"
+        },
+        "held": {
+          "sprite": "wise-glasses",
+          "name": "Wise Glasses",
+          "effect": "updating..."
+        },
+        "sprite": 911,
+        "types": [
+          "fire",
+          "ghost"
+        ],
+        "stats": {
+          "hp": 104,
+          "atk": 75,
+          "def": 100,
+          "spa": 110,
+          "spd": 75,
+          "spe": 66
+        }
+      },
+      {
+        "name": "gengar",
+        "level": "62",
+        "moves": [
+          {
+            "power": 80,
+            "type": "fairy",
+            "damage_class": "special",
+            "name": "Dazzling Gleam"
+          },
+          {
+            "power": 90,
+            "type": "poison",
+            "damage_class": "special",
+            "name": "Sludge Bomb"
+          },
+          {
+            "power": 80,
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Shadow Ball"
+          },
+          {
+            "power": 80,
+            "type": "dark",
+            "damage_class": "special",
+            "name": "Dark Pulse"
+          }
+        ],
+        "ability": {
+          "name": "Cursed Body"
+        },
+        "held": {
+          "sprite": "assault-vest",
+          "name": "Assault Vest",
+          "effect": "updating..."
+        },
+        "sprite": 94,
+        "types": [
+          "ghost",
+          "poison"
+        ],
+        "stats": {
+          "hp": 60,
+          "atk": 65,
+          "def": 60,
+          "spa": 130,
+          "spd": 75,
+          "spe": 110
+        }
+      },
+      {
+        "name": "spiritomb",
+        "level": "63",
+        "moves": [
+          {
+            "power": 55,
+            "type": "ice",
+            "damage_class": "special",
+            "name": "Icy Wind"
+          },
+          {
+            "power": 55,
+            "type": "dark",
+            "damage_class": "special",
+            "name": "Snarl"
+          },
+          {
+            "power": 0,
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Disable"
+          },
+          {
+            "power": 0,
+            "type": "psychic",
+            "damage_class": "status",
+            "name": "Ally Switch"
+          }
+        ],
+        "ability": {
+          "name": "Pressure / Infiltrator"
+        },
+        "held": {
+          "sprite": "covert-cloak",
+          "name": "Covert Cloak",
+          "effect": "updating..."
+        },
+        "sprite": 442,
+        "types": [
+          "ghost",
+          "dark"
+        ],
+        "stats": {
+          "hp": 50,
+          "atk": 92,
+          "def": 108,
+          "spa": 92,
+          "spd": 108,
+          "spe": 35
+        }
+      },
+      {
+        "name": "typhlosion",
+        "level": "63",
+        "moves": [
+          {
+            "power": 60,
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Infernal Parade"
+          },
+          {
+            "power": 60,
+            "type": "normal",
+            "damage_class": "special",
+            "name": "Swift"
+          },
+          {
+            "power": 0,
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Roar"
+          },
+          {
+            "power": 0,
+            "type": "fire",
+            "damage_class": "status",
+            "name": "Will-O-Wisp"
+          }
+        ],
+        "ability": {
+          "name": "Blaze / Flash Fire"
+        },
+        "held": {
+          "sprite": "focus-sash",
+          "name": "Focus Sash",
+          "effect": "updating..."
+        },
+        "sprite": 157,
+        "types": [
+          "fire"
+        ],
+        "stats": {
+          "hp": 78,
+          "atk": 84,
+          "def": 78,
+          "spa": 109,
+          "spd": 85,
+          "spe": 100
+        }
+      },
+      {
+        "name": "toxtricity",
+        "level": "63",
+        "moves": [
+          {
+            "power": 80,
+            "type": "electric",
+            "damage_class": "special",
+            "name": "Overdrive"
+          },
+          {
+            "power": 40,
+            "type": "poison",
+            "damage_class": "special",
+            "name": "Acid Spray"
+          },
+          {
+            "power": 140,
+            "type": "normal",
+            "damage_class": "special",
+            "name": "Boomburst"
+          },
+          {
+            "power": 0,
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Growl"
+          }
+        ],
+        "ability": {
+          "name": "Punk Rock / Plus / Technician"
+        },
+        "held": {
+          "sprite": "cell-battery",
+          "name": "Cell Battery",
+          "effect": "updating..."
+        },
+        "sprite": 849,
+        "types": [
+          "electric",
+          "poison"
+        ],
+        "stats": {
+          "hp": 75,
+          "atk": 98,
+          "def": 70,
+          "spa": 114,
+          "spd": 70,
+          "spe": 75
+        },
+        "tera": "ghost"
       }
     ]
   },
