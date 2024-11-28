@@ -1385,7 +1385,7 @@
         }
       },
       {
-        "name": "typhlosion",
+        "name": "typhlosion-hisui",
         "level": "63",
         "moves": [
           {
@@ -1414,24 +1414,25 @@
           }
         ],
         "ability": {
-          "name": "Blaze / Flash Fire"
+          "name": "Blaze / Frisk"
         },
         "held": {
           "sprite": "focus-sash",
           "name": "Focus Sash",
           "effect": "updating..."
         },
-        "sprite": 157,
+        "sprite": 10233,
         "types": [
-          "fire"
+          "fire",
+          "ghost"
         ],
         "stats": {
-          "hp": 78,
+          "hp": 73,
           "atk": 84,
           "def": 78,
-          "spa": 109,
+          "spa": 119,
           "spd": 85,
-          "spe": 100
+          "spe": 95
         }
       },
       {
@@ -3543,7 +3544,7 @@
     },
     "pokemon": [
       {
-        "name": "zoroark",
+        "name": "zoroark-hisui",
         "level": "50",
         "moves": [
           {
@@ -3579,9 +3580,10 @@
           "name": "Scope Lens",
           "effect": "updating..."
         },
-        "sprite": 571,
+        "sprite": 10239,
         "types": [
-          "dark"
+          "ghost",
+          "normal"
         ],
         "stats": {
           "hp": 60,
@@ -3794,54 +3796,54 @@
         }
       },
       {
-        "name": "quaquaval",
+        "name": "meowscarada",
         "level": "52",
         "moves": [
           {
-            "power": 120,
-            "type": "fighting",
+            "power": 70,
+            "type": "dark",
             "damage_class": "physical",
-            "name": "Close Combat"
+            "name": "Night Slash"
           },
           {
             "power": 80,
-            "type": "water",
+            "type": "dark",
             "damage_class": "physical",
-            "name": "Aqua Step"
+            "name": "Throat Chop"
           },
           {
             "power": 70,
-            "type": "normal",
+            "type": "grass",
             "damage_class": "physical",
-            "name": "Facade"
+            "name": "Flower Trick"
           },
           {
-            "power": 85,
-            "type": "water",
+            "power": 80,
+            "type": "grass",
             "damage_class": "physical",
-            "name": "Liquidation"
+            "name": "Seed Bomb"
           }
         ],
         "ability": {
-          "name": "Torrent / Moxie"
+          "name": "Overgrow / Protean"
         },
         "held": {
-          "sprite": "mystic-water",
-          "name": "Mystic Water",
+          "sprite": "razor-fang",
+          "name": "Razor Fang",
           "effect": "updating..."
         },
-        "sprite": 914,
+        "sprite": 908,
         "types": [
-          "water",
-          "fighting"
+          "grass",
+          "dark"
         ],
         "stats": {
-          "hp": 85,
-          "atk": 120,
-          "def": 80,
-          "spa": 85,
-          "spd": 75,
-          "spe": 85
+          "hp": 76,
+          "atk": 110,
+          "def": 70,
+          "spa": 81,
+          "spd": 70,
+          "spe": 123
         }
       }
     ]

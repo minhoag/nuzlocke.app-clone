@@ -1385,7 +1385,7 @@
         }
       },
       {
-        "name": "typhlosion",
+        "name": "typhlosion-hisui",
         "level": "63",
         "moves": [
           {
@@ -1414,24 +1414,25 @@
           }
         ],
         "ability": {
-          "name": "Blaze / Flash Fire"
+          "name": "Blaze / Frisk"
         },
         "held": {
           "sprite": "focus-sash",
           "name": "Focus Sash",
           "effect": "updating..."
         },
-        "sprite": 157,
+        "sprite": 10233,
         "types": [
-          "fire"
+          "fire",
+          "ghost"
         ],
         "stats": {
-          "hp": 78,
+          "hp": 73,
           "atk": 84,
           "def": 78,
-          "spa": 109,
+          "spa": 119,
           "spd": 85,
-          "spe": 100
+          "spe": 95
         }
       },
       {
@@ -3532,7 +3533,7 @@
     },
     "pokemon": [
       {
-        "name": "zoroark",
+        "name": "zoroark-hisui",
         "level": "50",
         "moves": [
           {
@@ -3568,9 +3569,10 @@
           "name": "Scope Lens",
           "effect": "updating..."
         },
-        "sprite": 571,
+        "sprite": 10239,
         "types": [
-          "dark"
+          "ghost",
+          "normal"
         ],
         "stats": {
           "hp": 60,

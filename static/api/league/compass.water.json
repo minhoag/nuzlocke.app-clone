@@ -1385,7 +1385,7 @@
         }
       },
       {
-        "name": "typhlosion",
+        "name": "typhlosion-hisui",
         "level": "63",
         "moves": [
           {
@@ -1414,24 +1414,25 @@
           }
         ],
         "ability": {
-          "name": "Blaze / Flash Fire"
+          "name": "Blaze / Frisk"
         },
         "held": {
           "sprite": "focus-sash",
           "name": "Focus Sash",
           "effect": "updating..."
         },
-        "sprite": 157,
+        "sprite": 10233,
         "types": [
-          "fire"
+          "fire",
+          "ghost"
         ],
         "stats": {
-          "hp": 78,
+          "hp": 73,
           "atk": 84,
           "def": 78,
-          "spa": 109,
+          "spa": 119,
           "spd": 85,
-          "spe": 100
+          "spe": 95
         }
       },
       {
@@ -3540,7 +3541,7 @@
     },
     "pokemon": [
       {
-        "name": "zoroark",
+        "name": "zoroark-hisui",
         "level": "50",
         "moves": [
           {
@@ -3576,9 +3577,10 @@
           "name": "Scope Lens",
           "effect": "updating..."
         },
-        "sprite": 571,
+        "sprite": 10239,
         "types": [
-          "dark"
+          "ghost",
+          "normal"
         ],
         "stats": {
           "hp": 60,
@@ -3791,54 +3793,54 @@
         }
       },
       {
-        "name": "skeledirge",
+        "name": "meowscarada",
         "level": "52",
         "moves": [
           {
-            "power": 90,
-            "type": "normal",
-            "damage_class": "special",
-            "name": "Hyper Voice"
+            "power": 70,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Night Slash"
           },
           {
             "power": 80,
-            "type": "fire",
-            "damage_class": "special",
-            "name": "Torch Song"
-          },
-          {
-            "power": 65,
-            "type": "ghost",
-            "damage_class": "special",
-            "name": "Hex"
-          },
-          {
-            "power": 55,
             "type": "dark",
-            "damage_class": "special",
-            "name": "Snarl"
+            "damage_class": "physical",
+            "name": "Throat Chop"
+          },
+          {
+            "power": 70,
+            "type": "grass",
+            "damage_class": "physical",
+            "name": "Flower Trick"
+          },
+          {
+            "power": 80,
+            "type": "grass",
+            "damage_class": "physical",
+            "name": "Seed Bomb"
           }
         ],
         "ability": {
-          "name": "Blaze / Unaware"
+          "name": "Overgrow / Protean"
         },
         "held": {
-          "sprite": "assault-vest",
-          "name": "Assault Vest",
+          "sprite": "razor-fang",
+          "name": "Razor Fang",
           "effect": "updating..."
         },
-        "sprite": 911,
+        "sprite": 908,
         "types": [
-          "fire",
-          "ghost"
+          "grass",
+          "dark"
         ],
         "stats": {
-          "hp": 104,
-          "atk": 75,
-          "def": 100,
-          "spa": 110,
-          "spd": 75,
-          "spe": 66
+          "hp": 76,
+          "atk": 110,
+          "def": 70,
+          "spa": 81,
+          "spd": 70,
+          "spe": 123
         }
       }
     ]
