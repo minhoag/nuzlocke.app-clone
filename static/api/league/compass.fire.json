@@ -1182,165 +1182,144 @@
     },
     "pokemon": [
       {
-        "name": "banette",
-        "level": "41",
-        "moves": [
-          {
-            "power": 55,
-            "type": "ice",
-            "damage_class": "special",
-            "name": "Icy Wind",
-            "effect": "Has a 100% chance to lower the target's Speed by one stage."
-          },
-          {
-            "power": 70,
-            "priority": 1,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Sucker Punch",
-            "effect": "Only works if the target is about to use a damaging move."
-          },
-          {
-            "power": 40,
-            "priority": 1,
-            "type": "ghost",
-            "damage_class": "physical",
-            "name": "Shadow Sneak"
-          }
-        ],
-        "ability": {
-          "name": "Insomnia",
-          "effect": "Prevents sleep."
-        },
-        "sprite": "354",
-        "types": [
-          "ghost"
-        ],
-        "stats": {
-          "hp": 64,
-          "atk": 115,
-          "def": 65,
-          "spa": 83,
-          "spd": 63,
-          "spe": 65
-        }
-      },
-      {
-        "name": "mimikyu",
-        "level": "41",
-        "moves": [
-          {
-            "type": "psychic",
-            "damage_class": "status",
-            "name": "Light Screen",
-            "effect": "Reduces damage from special attacks by 50% for five turns."
-          },
-          {
-            "power": 40,
-            "priority": 1,
-            "type": "ghost",
-            "damage_class": "physical",
-            "name": "Shadow Sneak"
-          },
-          {
-            "power": 70,
-            "type": "normal",
-            "damage_class": "physical",
-            "name": "Slash",
-            "effect": "Has an increased chance for a critical hit."
-          }
-        ],
-        "ability": {
-          "name": "Disguise",
-          "effect": "Prevents the first instance of battle damage."
-        },
-        "sprite": "778",
-        "types": [
-          "ghost",
-          "fairy"
-        ],
-        "stats": {
-          "hp": 55,
-          "atk": 90,
-          "def": 80,
-          "spa": 50,
-          "spd": 105,
-          "spe": 96
-        }
-      },
-      {
-        "name": "houndstone",
-        "level": "41",
+        "name": "ninetales",
+        "level": "100",
         "moves": [
           {
             "power": 90,
-            "type": "fairy",
-            "damage_class": "physical",
-            "name": "Play Rough",
-            "effect": "Has a 10% chance to lower the target's Attack by one stage."
+            "type": "grass",
+            "damage_class": "special",
+            "name": "Energy Ball"
+          },
+          {
+            "power": 70,
+            "type": "fire",
+            "damage_class": "special",
+            "name": "Burning Jealousy"
+          },
+          {
+            "power": 70,
+            "type": "fire",
+            "damage_class": "special",
+            "name": "Burning Jealousy"
           },
           {
             "power": 80,
-            "type": "dark",
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Shadow Ball"
+          }
+        ],
+        "ability": {
+          "name": "Flash Fire / Drought"
+        },
+        "held": {
+          "sprite": "assault-vest",
+          "name": "Assault Vest",
+          "effect": "updating..."
+        },
+        "sprite": 38,
+        "types": [
+          "fire"
+        ],
+        "stats": {
+          "hp": 73,
+          "atk": 76,
+          "def": 75,
+          "spa": 81,
+          "spd": 100,
+          "spe": 100
+        }
+      },
+      {
+        "name": "basculegion",
+        "level": "100",
+        "moves": [
+          {
+            "power": 50,
+            "type": "ghost",
             "damage_class": "physical",
-            "name": "Crunch",
-            "effect": "Has a 20% chance to lower the target's Defense by one stage."
+            "name": "Last Respects"
+          },
+          {
+            "power": 120,
+            "type": "water",
+            "damage_class": "physical",
+            "name": "Wave Crash"
           },
           {
             "power": 90,
             "type": "ghost",
             "damage_class": "physical",
-            "name": "Phantom Force",
-            "effect": "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+            "name": "Phantom Force"
+          },
+          {
+            "power": 90,
+            "type": "water",
+            "damage_class": "special",
+            "name": "Surf"
           }
         ],
         "ability": {
-          "name": "Sand Rush",
-          "effect": "Doubles Speed during a sandstorm.  Protects against sandstorm damage."
+          "name": "Swift Swim / Adaptability / Mold Breaker"
         },
-        "sprite": "972",
+        "held": {
+          "sprite": "spell-tag",
+          "name": "Spell Tag",
+          "effect": "updating..."
+        },
+        "sprite": 902,
         "types": [
+          "water",
           "ghost"
         ],
         "stats": {
-          "hp": 72,
-          "atk": 101,
-          "def": 100,
-          "spa": 50,
-          "spd": 97,
-          "spe": 68
+          "hp": 120,
+          "atk": 112,
+          "def": 65,
+          "spa": 80,
+          "spd": 75,
+          "spe": 78
         }
       },
       {
         "name": "toxtricity",
-        "level": "42",
+        "level": "100",
         "moves": [
           {
             "power": 80,
             "type": "electric",
             "damage_class": "special",
-            "name": "Discharge",
-            "effect": "Has a 30% chance to paralyze the target."
+            "name": "Overdrive"
           },
           {
-            "power": 65,
-            "type": "ghost",
+            "power": 95,
+            "type": "poison",
             "damage_class": "special",
-            "name": "Hex",
-            "effect": "Has double power if the target has a major status ailment."
+            "name": "Sludge Wave"
           },
           {
-            "power": 90,
-            "type": "normal",
+            "power": 80,
+            "type": "electric",
             "damage_class": "special",
-            "name": "Hyper Voice"
+            "name": "Discharge"
+          },
+          {
+            "power": 120,
+            "type": "poison",
+            "damage_class": "special",
+            "name": "Belch"
           }
         ],
         "ability": {
-          "name": "Punk Rock"
+          "name": "Punk Rock / Plus / Technician"
         },
-        "tera": "ghost",
-        "sprite": "10184",
+        "held": {
+          "sprite": "poison-barb",
+          "name": "Poison Barb",
+          "effect": "updating..."
+        },
+        "sprite": 849,
         "types": [
           "electric",
           "poison"
@@ -1352,6 +1331,158 @@
           "spa": 114,
           "spd": 70,
           "spe": 75
+        }
+      },
+      {
+        "name": "trevenant",
+        "level": "100",
+        "moves": [
+          {
+            "power": 90,
+            "type": "ghost",
+            "damage_class": "physical",
+            "name": "Phantom Force"
+          },
+          {
+            "power": 120,
+            "type": "grass",
+            "damage_class": "physical",
+            "name": "Wood Hammer"
+          },
+          {
+            "power": 80,
+            "type": "bug",
+            "damage_class": "physical",
+            "name": "X-Scissor"
+          },
+          {
+            "power": 100,
+            "type": "ground",
+            "damage_class": "physical",
+            "name": "Earthquake"
+          }
+        ],
+        "ability": {
+          "name": "Natural Cure / Frisk / Harvest"
+        },
+        "held": {
+          "sprite": "quick-claw",
+          "name": "Quick Claw",
+          "effect": "updating..."
+        },
+        "sprite": 709,
+        "types": [
+          "ghost",
+          "grass"
+        ],
+        "stats": {
+          "hp": 85,
+          "atk": 110,
+          "def": 76,
+          "spa": 65,
+          "spd": 82,
+          "spe": 56
+        }
+      },
+      {
+        "name": "noivern",
+        "level": "100",
+        "moves": [
+          {
+            "power": 75,
+            "type": "flying",
+            "damage_class": "special",
+            "name": "Air Slash"
+          },
+          {
+            "power": 85,
+            "type": "dragon",
+            "damage_class": "special",
+            "name": "Dragon Pulse"
+          },
+          {
+            "power": 80,
+            "type": "dark",
+            "damage_class": "special",
+            "name": "Dark Pulse"
+          },
+          {
+            "power": 140,
+            "type": "normal",
+            "damage_class": "special",
+            "name": "Boomburst"
+          }
+        ],
+        "ability": {
+          "name": "Frisk / Infiltrator / Telepathy"
+        },
+        "held": {
+          "sprite": "black-glasses",
+          "name": "Black Glasses",
+          "effect": "updating..."
+        },
+        "sprite": 715,
+        "types": [
+          "flying",
+          "dragon"
+        ],
+        "stats": {
+          "hp": 85,
+          "atk": 70,
+          "def": 80,
+          "spa": 97,
+          "spd": 80,
+          "spe": 123
+        }
+      },
+      {
+        "name": "houndstone",
+        "level": "100",
+        "moves": [
+          {
+            "power": 90,
+            "type": "ghost",
+            "damage_class": "physical",
+            "name": "Phantom Force"
+          },
+          {
+            "power": 80,
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Shadow Ball"
+          },
+          {
+            "power": 85,
+            "type": "psychic",
+            "damage_class": "physical",
+            "name": "Psychic Fangs"
+          },
+          {
+            "power": 110,
+            "type": "ghost",
+            "damage_class": "physical",
+            "name": "Poltergeist"
+          }
+        ],
+        "ability": {
+          "name": "Sand Rush / Fluffy"
+        },
+        "held": {
+          "sprite": "clear-amulet",
+          "name": "Clear Amulet",
+          "effect": "updating..."
+        },
+        "sprite": 972,
+        "types": [
+          "ghost"
+        ],
+        "stats": {
+          "hp": 72,
+          "atk": 101,
+          "def": 100,
+          "spa": 50,
+          "spd": 97,
+          "spe": 68
         }
       }
     ]
